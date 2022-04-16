@@ -1,0 +1,30 @@
+body {
+    font-family: cursive;
+    background: url(/assets/img/Menna-Photo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 98vh;
+    overflow: hidden;
+}
+section#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.card {
+    width: 40vw;
+    color: #fff;
+    padding: 50px;
+    border-radius: 5px;
+    text-align: center;
+    backdrop-filter: blur(14px);
+}
+.card img {
+    width: 20vw;
+    border: 2px solid #eee;
+    border-radius: 50%;
+}
+audio {
+    width: 40vw;
+}
